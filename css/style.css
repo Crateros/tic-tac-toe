@@ -26,10 +26,11 @@ button {
 }
 
 .gamePiece {
-  height: 100px;
-  width: 100px;
+  height: 98px;
+  width: 98px;
   float: left;
   text-align: center;
+  border: 1px solid white;
 }
 
 .color:hover {
