@@ -8,6 +8,15 @@ document.addEventListener('DOMContentLoaded', function() {
   var turn = 0;
     // setup game board object
   var board = {};
+  var turnMarker = document.getElementsByTagName("h2");
+
+    if (turn % 2 === 0) {
+      turnMarker.innerHTML = "Player X Turn";
+    }
+    else {
+      turnMarker.innerHTML = "Player O Turn";
+    }
+
 
     // Setup game board object to log game state
   function gameBoard() {
